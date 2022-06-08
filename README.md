@@ -1,5 +1,11 @@
 # log_list_generator
-Simple tool to generate a wordlist of potential log file names
+Simple tool to generate a wordlist of potential log file names for use in web application brute forcing.
+
+# Usage
+
+You know that feeling. You've just gotten that 403 on `https://<appname>/logs`. You _know_ there is something juicy in there. 
+
+This tool generates a list of potential log file names. It'll substitute in dates and times to make a large brute forcible list to throw at an endpoint.
 
 ```
 usage: create_log.py [-h] [-t TEMPLATE] [-o OUTPUT] [-d DAYS] [-p PID]
