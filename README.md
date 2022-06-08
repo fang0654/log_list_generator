@@ -15,6 +15,6 @@ optional arguments:
 
 ```
 
-The idea is to have a list of 'templates' in the "log_names.tmpl" file. If there are date ({m} {y} {d}) fields, the script will auto generate candidates from DAYS. If there is a {pid} the system will generate all candidates from 0 to PID.
+The idea is to have a list of 'templates' in the "templates" folder with .tmpl extensions. If there are date ({m} {y} {d}) fields, the script will auto generate candidates from DAYS. If there is a {pid} the system will generate all candidates from 0 to PID.
 
 Any contributions on additional log naming formats would be most welcome!
